@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Sniglet';
+    src: url('path/to/custom-font.woff2') format('woff2'), 
+         url('path/to/custom-font.woff') format('woff'); 
+}
+
+#banner-image {
+    position: relative;
+    width: 100%;
+    height: 70vh; 
+    overflow: hidden;
+    color: #f8f8f8;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
+#banner-image video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+#banner_content {
+    font-family: 'Sniglet'; font-size: medium;
+    position: relative;
+    z-index: 1;
+    padding: 20px; 
+    color: rgb(169, 239, 248);
+}
+
+.content-wrapper {
+    background: rgba(89, 53, 100, 0.6); 
+    padding: 20px;
+    border-radius: 30px; 
+    width: 80%; 
+    max-width: 800px; 
+    margin: auto; 
+}
+
+.navbar.navbar-inverse {
+    font-family: 'Sniglet'; 
+    background-color: #2e1557; 
+    color: #ffffff; 
+}
+
+.navbar.navbar-inverse .navbar-brand {
+    color: #b12587;
+}
+
+.navbar {
+    font-family: 'Sniglet';
+    background-color: #2e1557;
+    color: #6b1752;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-family: 'Sniglet';
+    color: #b12587;
+}
+
+footer {
+    font-family: 'Sniglet';
+    position: fixed;
+    padding: 10px 0;
+    background-color: #2e1557;
+    color: #38c2ec;
+    bottom: 0;
+    width: 100%;
+}
+
+.custom-button {
+    font-family: 'Sniglet';
+    font-weight: 500;
+    background-color: #3d0542 !important; 
+    border: none; 
+    color: rgb(169, 239, 248);
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.custom-button:hover {
+    background-color: #540d5a  !important; 
+    color: rgb(239, 120, 255);
+    transform: scale(1.05); 
+    font-weight: 500;
+}
+
+.custom-button:active {
+    background-color: #4c0f52 !important; 
+    transform: scale(1.00); 
+}
+
+.custom-button-2 {
+    font-family: 'Sniglet';
+    background-color: #3d0542 !important;
+    border: none;
+    color: rgb(169, 239, 248);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px; /* Keep the margin as in your original code */
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-button-2:hover {
+    background-color: #540d5a !important;
+    color: rgb(239, 120, 255);
+    transform: scale(1.05);
+}
+
+.custom-button-2:active {
+    background-color: #4c0f52 !important;
+    transform: scale(1.00);
+}
+
+.custom-button3 {
+    font-family: 'Sniglet';
+    background-color: #580f5f !important;
+    border: none;
+    color: rgb(169, 239, 248);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-button3:hover {
+    background-color: #540d5a !important;
+    color: rgb(239, 120, 255);
+    transform: scale(1.05);
+}
+
+.custom-button3:active {
+    background-color: #4c0f52 !important;
+    transform: scale(1.00);
+}
+
+
+.row-style {
+    margin-top: 20px;
+}
+
+
+#imgs {
+    min-height: 170px;
+}
+
+.bgcolor {
+    background-color: rgb(158, 142, 190);
+}
+
+.center-content {
+    text-align: center;
+    font-family: 'Sniglet';
+    font-weight: 500;
+    align-items: center;
+    color: #6b1752;
+}
+
+.thumbnail {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: dashed 2px #2e1557;
+    background-color: #a18bb6;
+    height: 420; /* Keep the height auto */
+    width: auto; /* Adjust this value to make the container wider */
+}
+
+.article-image {
+    max-height: 300px;  /* Adjust this value to the desired height */
+    width: 100%; /* This will make the image take the full width of its container */
+    object-fit: cover;
+    border: solid 1px #2e1557;
+    border-radius: 4px; /* This will make the image cover the entire width of its container while maintaining its aspect ratio */
+}
+
+.caption {
+    
+    font-size: 16px; 
+    font-family: 'Sniglet';
+    font-weight: 500;
+}
+
+.cart-background {
+    position: relative;
+    z-index: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: dashed 3px #6b1752;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(46, 21, 87, 0.8);
+    height: auto;
+}
+.table td {
+    font-size: 20px; 
+    padding: 15px; 
+    border: dashed 2px #2e1557;
+    background-color: #3b255f;
+    color: #b12587;
+}
+
+.foot {
+    position: absolute;
+}
+
+.title {
+    font-family: 'Sniglet';
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    left: auto;
+}
+
+.fo {
+    position: inherit;
+}
+
+.form-background {
+    background: rgba(46, 21, 87, 0.7);
+    padding: 20px; 
+    border-radius: 10px; 
+    border: dashed 3px #b12587;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #2e1557;
+    z-index: 1000;
+    min-width: 160px;
+}
+
+.dropdown-menu li {
+    display: block;
+}
+
+.dropdown-menu li a {
+    color: #b12587;
+}
+
+.dropdown-menu li:hover {
+    background-color: #2e1557;
+}
+
+.panel-primary .panel-heading {
+    background-color: #2e1557 !important;
+    color: #ffffff;
+    font-family: 'Sniglet';
+    font-size: 18px;
+    text-align: center;
+    border: dashed 3px #b12587;
+}
+
+.panel-primary .panel-body {
+    background-color: #a18bb6;
+    color: #6b1752;
+    font-family: 'Sniglet';
+    text-align: center;
+    border: dashed 3px #b12587;
+}
+
+.panel-primary .panel-body a {
+    color: #2e1557;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.panel-primary .panel-body a:hover {
+    color: #540d5a;
+    text-decoration: underline;
+}
+
+.row {
+    margin-top: 20px;
+}
