@@ -20,7 +20,7 @@ GEEKVAULT is a simple and efficient online store for gaming enthusiasts. It offe
 
 ---
 
-## 🧑‍💻 How to Run the Project Locally (Expanded Steps)
+## 🧑‍💻 How to Run the Project Locally 
 
 ### 1️⃣ **Set Up a Local Server**
 - Install XAMPP, WAMP, or any local server capable of running PHP and MySQL.
